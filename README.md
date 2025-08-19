@@ -4,14 +4,8 @@
   <a href="https://github.com/mffg1993/OpticsSetupsDictionary/blob/main/LICENSE">
     <img alt="License" src="https://img.shields.io/github/license/mffg1993/OpticsSetupsDictionary">
   </a>
-  <a href="https://github.com/mffg1993/OpticsSetupsDictionary/releases">
-    <img alt="Release" src="https://img.shields.io/github/v/release/mffg1993/OpticsSetupsDictionary?sort=semver">
-  </a>
   <a href="https://github.com/mffg1993/OpticsSetupsDictionary/stargazers">
     <img alt="Stars" src="https://img.shields.io/github/stars/mffg1993/OpticsSetupsDictionary">
-  </a>
-  <a href="https://github.com/mffg1993/OpticsSetupsDictionary/issues">
-    <img alt="Issues" src="https://img.shields.io/github/issues/mffg1993/OpticsSetupsDictionary">
   </a>
   <img alt="Last commit" src="https://img.shields.io/github/last-commit/mffg1993/OpticsSetupsDictionary">
   <img alt="Wolfram Language" src="https://img.shields.io/badge/Wolfram%20Language-library-red">
