@@ -1,6 +1,6 @@
 # OpticsSetupsDictionary — Optics Figure Library for the Wolfram Language
 
-<p align="center">
+<p align="left">
   <a href="https://github.com/mffg1993/OpticsSetupsDictionary/blob/main/LICENSE">
     <img alt="License" src="https://img.shields.io/github/license/mffg1993/OpticsSetupsDictionary">
   </a>
@@ -44,19 +44,14 @@ I found myself redrawing the same optics blocks for papers, slides, and lab note
 
 - OpticalSetUps.pdf — static preview of components
 
-## LICENSE — MIT
+## License
 
-##Export
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
 
-Use Export["figure.pdf", graphics] or Export["figure.svg", graphics] for publication-ready vectors.
-
-## Roadmap
-
-Add Jones/Mueller markers for polarization elements
-
-Dimension helpers & snap-to-grid utilities
-
-A paclet for one-line install (PacletInstall["OptiFig"])
+### Key points:
+- You are free to use, modify, and distribute this software under the terms of the GPL-3.0 license.
+- Any derivative work must also be licensed under GPL-3.0.
+- This software comes with **no warranty**; see the [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) for more details.
 
 ## Contributing
 
@@ -68,6 +63,3 @@ If this library helps your work, please cite:
 
 Ferrer, M. OpticsSetupsDictionary, Wolfram Language library for optics figures. MIT License. GitHub: https://github.com/mffg1993/OpticsSetupsDictionary
 
-License
-
-MIT © Manuel Ferrer
