@@ -46,12 +46,7 @@ I found myself redrawing the same optics blocks for papers, slides, and lab note
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
-
-### Key points:
-- You are free to use, modify, and distribute this software under the terms of the GPL-3.0 license.
-- Any derivative work must also be licensed under GPL-3.0.
-- This software comes with **no warranty**; see the [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) for more details.
+This project is licensed under the MIT license 
 
 ## Contributing
 
