@@ -4,9 +4,6 @@
   <a href="https://github.com/mffg1993/OpticsSetupsDictionary/blob/main/LICENSE">
     <img alt="License" src="https://img.shields.io/github/license/mffg1993/OpticsSetupsDictionary">
   </a>
-  <a href="https://github.com/mffg1993/OpticsSetupsDictionary/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/mffg1993/OpticsSetupsDictionary">
-  </a>
   <img alt="Last commit" src="https://img.shields.io/github/last-commit/mffg1993/OpticsSetupsDictionary">
   <img alt="Wolfram Language" src="https://img.shields.io/badge/Wolfram%20Language-library-red">
   <img alt="Mathematica" src="https://img.shields.io/badge/Made%20with-Mathematica-red">
@@ -22,7 +19,6 @@
 
 Publication-ready optics diagrams built in the Wolfram Language (Mathematica): lenses, mirrors, beamsplitters, waveplates, apertures, gratings, detectors, and beam glyphs you can parametrize and assemble into full experimental setups.
 
-[MIT License](LICENSE) · Wolfram Language · Works with notebooks and scripts
 
 ---
 
