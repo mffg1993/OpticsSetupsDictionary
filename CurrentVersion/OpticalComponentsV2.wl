@@ -111,7 +111,12 @@ OpticalComponent[type_String,opts:OptionsPattern[]]:=
    Return[PlacedGraphics[First[plot],pos,rot]]
  ];
  parts=Switch[type,
-  "PLATE"|"Mirror"|"QWP"|"HWP"|"PhasePlate"|"AsphericLens2"|"AsphericLens22",
+  "QWP"|"HWP",
+    (* Visible local +Y fast-axis indicator; rolling about +X changes it. *)
+    {col,Opacity[op],disk[rad,len],Darker[col],Opacity[1],
+     Tube[{{len/2+0.02,-0.75 rad,h[]},
+       {len/2+0.02,0.75 rad,h[]}},0.018]},
+  "PLATE"|"Mirror"|"PhasePlate"|"AsphericLens2"|"AsphericLens22",
     {col,Opacity[op],disk[rad,If[type==="AsphericLens22",0.075,len]]},
   "PRISM"|"PRISM2"|"PRISM3",
     {col,Opacity[op],EdgeForm[Thin],block[dim]},
