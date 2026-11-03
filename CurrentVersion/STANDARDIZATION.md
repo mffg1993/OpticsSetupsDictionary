@@ -76,10 +76,10 @@ All these use the **same** placement routine, including sub-objects such as fron
 ## Migration notes and important limitations
 
 - **Not pixel-perfect backwards compatibility.** The familiar positional signatures are present, but some old objects had inconsistent centers, dimensions, or axes, and those geometries have intentionally been normalized. Compare an existing notebook's figure visually before replacing the old package.
-- The V2 package is in its own `OpticsSetupsV2`` context to avoid overriding old `Global`` definitions. Call it with its qualified name if both versions are loaded.
+- The V2 package is in its own OpticsSetupsV2 package context to avoid overriding old Global-context definitions. Call it with its qualified name if both versions are loaded.
 - `PRISM2` is now a normal rectangular body with the shared yaw/pitch/roll convention; its previous custom tilt behavior is not retained.
 - `"Position"` is **not** the center of the 3D bounding box: it is the base-plane reference point. Changing `$OpticalAxisHeight` changes the default vertical offset for optical elements.
-- Plate `"Rotation"` controls the **orientation of its normal**. To rotate the fast axis of a wave plate about the optical axis, use the third component (roll), e.g. `{0,0,30 Degree}`. `Pol` also has independent `"PolarizationAngle"`.
+- Plate `"Rotation"` controls the **orientation of its normal**. Waveplates now show a small fast-axis marker; rotate this marker about the optical axis using the third component (roll), e.g. `{0,0,30 Degree}`. `Pol` also has an independent `"PolarizationAngle"`.
 - Source/SLM/camera shapes are schematic rather than metrically accurate device models.
 - This package has not been rendered/tested in a Wolfram kernel in this environment. Unit tests are provided for execution in Mathematica.
 
