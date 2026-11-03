@@ -45,3 +45,12 @@ If this library helps your work, please cite:
 
 Ferrer, M. OpticsSetupsDictionary, Wolfram Language library for optics figures. MIT License. GitHub: https://github.com/mffg1993/OpticsSetupsDictionary
 
+## Standardized components (experimental V2)
+
+A new opt-in component package provides consistent positioning and three-axis rotations without changing the legacy notebooks:
+
+- [OpticalComponentsV2.wl](CurrentVersion/OpticalComponentsV2.wl) — unified 3D placement API and component shapes.
+- [Coordinate system, usage and migration notes](CurrentVersion/STANDARDIZATION.md).
+- [Wolfram Language geometry tests](Tests/StandardizedComponents.wlt).
+
+Load it with `Get["CurrentVersion/OpticalComponentsV2.wl"]` from the repository root. See the migration notes before substituting it into older notebook figures.
